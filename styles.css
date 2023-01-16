@@ -1,0 +1,500 @@
+.tablethero {
+    display: none;
+}
+
+.desktophero {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+#desktopblack {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    max-width: 100vw;
+    background-color: #FCFAF9;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+   
+}
+
+
+.darklogo {
+    display: flex;
+    width: 285px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+   
+    
+}
+
+#container {
+    width: 343px;
+    padding: 16px;
+    margin: 0 auto;
+    
+}
+
+#container > p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: -3px;
+    margin-bottom: 32px;
+    
+}
+
+
+#buttontext {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    background-color: #151515;
+    padding: 24px 35px 22px 32px;
+    
+    -webkit-padding-after: 22px;
+    float: left;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+#buttonimg {
+    background-color: #D5966C;
+    padding: 21.5px;
+    border: none;
+    cursor: pointer;
+    
+    
+    
+}
+
+.arrowright {
+    width: 8px;
+    height: 24px;
+    
+}
+
+#buttontext:hover {
+    background-color: #D5966C;
+    
+}
+
+#buttontext:hover + #buttonimg {
+    background-color: #151515;
+}
+
+
+#gridcontainer {
+    display: grid;
+    margin-top: 120px;
+    row-gap: 16px;
+
+
+}
+
+#divtext > h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+}
+
+#divtext > p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+}
+
+#griditemlast {
+    background-color: #151515;
+    padding: 15px 24px 29px 24px;
+}
+
+#griditemlast > h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#griditemlast > p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #151515;
+    padding: 48px 32px 48px 32px;
+}
+
+.lightlogo {
+    width: 110.05px;
+    height: 40px;
+}
+
+footer > p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.instagram {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fb, .instagram, .twitter {
+    cursor: pointer;
+    
+}
+
+.fb:hover, .instagram:hover, .twitter:hover {
+    filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(-750deg) saturate(200%) contrast(0.8);
+}
+
+@media screen and (min-width: 700px) {
+    .hero {
+        display: none;
+    }
+
+    .desktophero {
+        display: none;
+    }
+
+    .mob {
+        display: none;
+    }
+
+    
+    .desktop {
+        display: none;
+    }
+    
+    #desktopblack {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .tablethero {
+        display: flex;
+        
+    }
+
+
+    .darklogo {
+        
+        margin-top: -37.5rem;
+        width: 339px;
+    }
+
+    #container {
+        margin-left: 21.7rem;
+        width: 259px;
+        max-width: 100%;
+        padding: 40px;
+        margin-top: 5px;
+        margin-bottom: 58px;
+        
+    }
+
+    #container > p {
+        width: 350px;
+        margin-top: 3.3rem;
+    }
+
+    #buttontext, #buttonimg {
+        margin-top: 20px;
+        position: relative;
+    }
+
+  
+    #buttontext {
+
+        
+        -webkit-padding-after: 22px;
+        
+    }
+
+
+   
+
+    #gridcontainer {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+        width: 100%;
+        margin-top: 20rem;
+        
+        padding: 80px 0px 120px 39px;
+        margin-left: -25rem;
+        gap: 11px;
+    }
+
+    #griditem1 {
+        display: flex;
+        justify-content: space-between;
+        grid-column: span 2;
+      
+    }
+
+    #griditem1 > #divtext {
+        order: 1;
+    }
+
+    #griditem1 > #divimg {
+        order: 2;
+    }
+
+
+    #griditem2 {
+        
+        grid-row: span 4;
+
+    }
+
+    #divtext {
+        width: 230px;
+    }
+
+    #griditemlast {
+        padding-bottom: 60px;
+    }
+
+    #griditemlast > h1 {
+        margin-top: 4.25rem;
+    
+    }
+
+    #griditemlast > p {
+        width: 223px;
+        padding-top: -10px; 
+    }
+
+    
+
+    footer {
+        margin-top: -110px;
+        display: flex;
+        
+    }
+
+    footer > p {
+        width: 281px;
+        margin-top: 0px;
+        margin-right: 133px;
+        margin-left: 64.95px;
+    }
+
+    .fb, .instagram, .twitter {
+        height: 20px;
+    }
+
+    .instagram {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 900px) {
+    .tablethero {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    
+    .desktophero {
+        display: flex;
+        margin-left: 28.13rem;
+        margin-top: -49.95rem;
+    }
+
+    #desktopblack {
+        
+        background: #151515;
+        width: 450px;
+        height: 799px;
+       
+        display: flex;
+        
+       
+        
+    }
+
+    .darklogo {
+        display: none;
+    }
+
+    #omg {
+        position: absolute;
+        width: 514px;
+        margin-top: 11.5rem;
+        margin-left: 10.25rem;
+        
+        background-image: linear-gradient(to right, white 56%, black 44%);
+        
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 88px;
+        text-transform: uppercase;
+
+    }
+
+    
+    #container {
+        
+        width: 1000px;
+        margin-top: -44rem;
+        
+    }
+
+    nav {
+        margin-left: 33.5rem;
+    }
+
+    #container > p {
+        margin-left: 33.6rem;
+        
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* #buttonimg {
+        margin-right: 14.2rem;
+    }
+
+    a {
+        margin-left: 33.8rem;
+    } */
+
+    #gridcontainer {
+        margin-top: 22.5rem;
+        padding: 180px;
+    }
+
+    #divtext {
+        width: 350px;
+       
+
+    }
+
+    #divtext > h1 {
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    #divtext > p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+    }
+
+    #divtext > h1 > br {
+        display: none;
+    }
+
+    #griditemlast {
+        padding-left: 48px;
+    }
+
+    #griditemlast > h1 {
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    #griditemlast > p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        width: 350px;
+        margin-bottom: -3px;
+    }
+
+    footer {
+        padding-left: 165px;
+        padding-right: 165px;
+        padding-top: 80px;
+        justify-content: space-between;
+    }
+
+    footer > p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        width: 430px;
+    }
+
+    .lightlogo {
+        width: 159.57px;
+        height: 58px;
+    }
+}
